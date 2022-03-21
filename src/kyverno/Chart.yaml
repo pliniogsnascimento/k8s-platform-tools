@@ -1,0 +1,11 @@
+apiVersion: v2
+name: kyverno
+description: Kyverno deployment to ensure kubernetes policies
+type: application
+version: 0.1.0
+appVersion: "1.0"
+
+dependencies:
+- name: kyverno
+  repository: https://kyverno.github.io/kyverno/
+  version: 2.3.1
