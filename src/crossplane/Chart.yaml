@@ -1,0 +1,11 @@
+apiVersion: v2
+name: crossplane
+description: Crossplane deployment to provide infrastructure
+type: application
+version: 0.1.0
+appVersion: "1.0"
+
+dependencies:
+- name: crossplane
+  repository: https://charts.crossplane.io/stable
+  version: 0.0.1
